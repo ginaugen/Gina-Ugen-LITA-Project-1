@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <nav class="navMenu" id="nav-menu">
+    
+    <div class="navLeft">
+          <img src="images/logo.svg" alt="" class="logo">
+          <ul class="slideIn">
+            <li class="featuresText" id="features-text">Features <img src="images/icon-arrow-down.svg" alt="">
+                <div class="featuresDropdown" id="feature-dropdown">
+                  <span><img src="images/icon-todo.svg" alt=""> Todo List</span>
+                  <span><img src="images/icon-calendar.svg" alt=""> Calendar</span>
+                  <span><img src="images/icon-reminders.svg" alt=""> Reminders</span>
+                  <span><img src="images/icon-planning.svg" alt=""> Planning</span>
+
+                </div>
+            </li>
+            <li class="companyText" id="company-text">Company <img src="images/icon-arrow-down.svg" alt="">
+            <div class="companyDropdown" id="company-dropdown">
+              <div>Histoy</div>
+              <div>Our Team</div>
+              <div>Blog</div>
+
+            </div>
+            </li>
+            <li>Careers</li>
+            <li>About</li>
+          </ul>
+
+        </div>
+
+
+        <div class="navRight">
+          <a href="#" class="loginBtn">Login</a>
+          <a href="#" class="regBtn">Register</a>
+        </div>
+      <img src="images/icon-menu.svg" alt="" class="hamMenu" id="ham-menu">
+      
+      
+  </nav>
+  <div class="container">
+    <div class="containerRight">
+
+    </div>
+
+    <div class="containerLeft">
+      <h1>Make remote work</h1>
+      <p>Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.
+      </p>
+      <a href="#" class="learnMore">Learn more</a>
+
+      <div class="containerLeftBtm">
+        <img src="images/client-databiz.svg" alt="">
+        <img src="images/client-audiophile.svg" alt="">
+        <img src="images/client-meet.svg" alt="">
+        <img src="images/client-maker.svg" alt="">
+      </div>
+
+    </div>
+    
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Gina Ugen</a>.
+  </div>
+
+  <div class="modal">
+    <div class="modalContent">
+      <img src="images/icon-close-menu.svg" alt=""class="closeBtn" id="close-btn">
+      <div class="modalTop">
+        <ul class="slideIn">
+          <li class="modalFDTxt" id="modal-FD-text">Features <img src="images/icon-arrow-up.svg" 
+            alt="" id="arrow-up-FD">
+              <div class="modalFeaturesDropdown" id="modal-features-dropdown">
+                <span><img src="images/icon-todo.svg" alt=""> Todo List</span>
+                <span><img src="images/icon-calendar.svg" alt=""> Calendar</span>
+                <span><img src="images/icon-reminders.svg" alt=""> Reminders</span>
+                <span><img src="images/icon-planning.svg" alt=""> Planning</span>
+  
+              </div>
+          </li>
+          <li class="modalCompanyText" id="modal-company-text">Company <img src="images/icon-arrow-up.svg" 
+            alt="" id="arrow-up-CT">
+          <div class="modalCompanyDropdown" id="modal-company-dropdown">
+            <div>Histoy</div>
+            <div>Our Team</div>
+            <div>Blog</div>
+  
+          </div>
+          </li>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+      </div>
+
+      <div class="modalBottom">
+        <a href="#" class="modalLoginBtn">Login</a>
+        <a href="#" class="modalRegBtn">Register</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+  
+</body>
+</html>
