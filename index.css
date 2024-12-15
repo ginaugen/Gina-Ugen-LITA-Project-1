@@ -183,6 +183,11 @@
     .modal{
         display: none;
     }
+
+    .attribution{
+        position: relative;
+        margin-top: 80px;
+    }
 }
 
 
